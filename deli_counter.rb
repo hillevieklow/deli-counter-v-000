@@ -6,5 +6,7 @@ def take_a_number(katz_deli, name)
   "Welcome, #{name}. You are number #{katz_deli.size + 1} in line."
 end
 
-def now_serving(next_person)
+def now_serving(line)
+  if line.size == 0
+    puts "There is nobody waiting to be served!"
 end
